@@ -1,53 +1,53 @@
-# japan-travel-app
-│
-├── android/                # Android 原生專案文件
-├── ios/                    # iOS 原生專案文件
-├── app/                    # App 核心程式碼
-│   ├── components/         # 可重用 UI 組件
-│   │   ├── Button.js
-│   │   ├── Card.js
-│   │   └── Carousel.js
-│   │
-│   ├── screens/            # 各個頁面
-│   │   ├── HomeScreen/
-│   │   │   ├── index.js
-│   │   │   └── styles.js
-│   │   ├── PlaceDetailScreen/
-│   │   │   ├── index.js
-│   │   │   └── styles.js
-│   │   ├── PlanTripScreen/
-│   │   │   ├── index.js
-│   │   │   └── styles.js
-│   │   ├── LoginScreen/
-│   │   └── CalendarScreen/
-│   │
-│   ├── navigation/         # React Navigation
-│   │   ├── AppNavigator.js
-│   │   └── AuthNavigator.js
-│   │
-│   ├── redux/              # 狀態管理 (可用 Redux Toolkit)
-│   │   ├── store.js
-│   │   └── slices/
-│   │       ├── userSlice.js
-│   │       └── tripSlice.js
-│   │
-│   ├── services/           # API / 資料處理
-│   │   ├── api.js
-│   │   └── firebase.js
-│   │
-│   ├── utils/              # 工具函數
-│   │   ├── helpers.js
-│   │   └── constants.js
-│   │
-│   ├── assets/             # 圖片 / 字型 / icon
-│   │   ├── images/
-│   │   └── fonts/
-│   │
-│   └── App.js              # React Native 入口文件
-│
-├── package.json
-├── babel.config.js
-├── metro.config.js
+# japan-travel-app\
+│\
+├── android/                # Android 原生專案文件\
+├── ios/                    # iOS 原生專案文件\
+├── app/                    # App 核心程式碼\
+│   ├── components/         # 可重用 UI 組件\
+│   │   ├── Button.js\
+│   │   ├── Card.js\
+│   │   └── Carousel.js\
+│   │\
+│   ├── screens/            # 各個頁面\
+│   │   ├── HomeScreen/\
+│   │   │   ├── index.js\
+│   │   │   └── styles.js\
+│   │   ├── PlaceDetailScreen/\
+│   │   │   ├── index.js\
+│   │   │   └── styles.js\
+│   │   ├── PlanTripScreen/\
+│   │   │   ├── index.js\
+│   │   │   └── styles.js\
+│   │   ├── LoginScreen/\
+│   │   └── CalendarScreen/\
+│   │\
+│   ├── navigation/         # React Navigation\
+│   │   ├── AppNavigator.js\
+│   │   └── AuthNavigator.js\
+│   │\
+│   ├── redux/              # 狀態管理 (可用 Redux Toolkit)\
+│   │   ├── store.js\
+│   │   └── slices/\
+│   │       ├── userSlice.js\
+│   │       └── tripSlice.js\
+│   │\
+│   ├── services/           # API / 資料處理\
+│   │   ├── api.js\
+│   │   └── firebase.js\
+│   │\
+│   ├── utils/              # 工具函數\
+│   │   ├── helpers.js\
+│   │   └── constants.js\
+│   │\
+│   ├── assets/             # 圖片 / 字型 / icon\
+│   │   ├── images/\
+│   │   └── fonts/\
+│   │\
+│   └── App.js              # React Native 入口文件\
+│\
+├── package.json\
+├── babel.config.js\
+├── metro.config.js\
 └── README.md
 
 
